@@ -26,7 +26,7 @@ The goal is to understand how these architectures work and compare their behavio
 
 \- Jupyter Notebook
 
-\- (TensorFlow/Keras أو PyTorch) ← اكتب اللي انت مستخدمه فعلاً
+\- (TensorFlow/Keras PyTorch) ← 
 
 
 
@@ -60,7 +60,7 @@ The goal is to understand how these architectures work and compare their behavio
 
 1\. Clone the repository:
 
-&#x20;  ```bash
+&#x20; 
 
 &#x20;  git clone https://github.com/A7med3li99/Sequence-Image-Models.git
 
