@@ -1,108 +1,73 @@
-\# Sequence \& Image Models (CNN / RNN / LSTM / GRU)
-
-
+# Sequence & Image Models (CNN / RNN / LSTM / GRU)
 
 This repository contains hands-on deep learning notebooks covering:
 
-\- \*\*CNN\*\* for image-related tasks
-
-\- \*\*RNN\*\* for sequence modeling
-
-\- \*\*LSTM / GRU\*\* for improved sequence learning and long-term dependencies
-
-
+- **CNN** for image-related tasks
+- **RNN** for sequence modeling
+- **LSTM / GRU** for improved sequence learning and long-term dependencies
 
 The goal is to understand how these architectures work and compare their behavior on different types of data.
 
+---
 
+## Tech Stack
 
-\---
+- Python
+- Jupyter Notebook
+- TensorFlow / Keras
 
+---
 
+## Repository Structure
 
-\## Tech Stack
+- `notebooks/`
+  - `01_cnn_session.ipynb` — CNN notebook
+  - `02_rnn_session.ipynb` — RNN notebook
+  - `03_lstm_gru.ipynb` — LSTM & GRU notebook
+- `images/` — plots/screenshots of results (optional but recommended)
 
-\- Python
+---
 
-\- Jupyter Notebook
+## How to Run
 
-\- (TensorFlow/Keras PyTorch) ← 
+1. Clone the repository:
 
+   ```bash
+   git clone https://github.com/A7med3li99/Sequence-Image-Models.git
+   cd Sequence-Image-Models
+   ```
 
+2. Install dependencies:
 
-\---
+   ```bash
+   pip install numpy pandas matplotlib jupyter
+   ```
 
+3. Install a deep learning framework:
 
+   ```bash
+   pip install tensorflow
+   ```
 
-\## Repository Structure
+4. Start Jupyter:
 
+   ```bash
+   jupyter notebook
+   ```
 
+5. Open the notebooks inside `notebooks/` and run all cells.
 
-\- `notebooks/`
+---
 
-&#x20; - `01\_cnn\_session.ipynb` — CNN notebook
+## Datasets Used
 
-&#x20; - `02\_rnn\_session.ipynb` — RNN notebook
+- **CIFAR-10** — 60,000 color images across 10 classes (used in CNN notebook)
+- **MNIST** — 70,000 grayscale handwritten digit images (used in CNN notebook)
+- **IMDB Reviews** — 50,000 movie reviews for sentiment analysis (used in RNN notebook)
+- **Daily Min Temperatures** — time series dataset for regression (used in LSTM/GRU notebook)
 
-&#x20; - `03\_lstm\_gru.ipynb` — LSTM \& GRU notebook
+---
 
-\- `images/` — add plots/screenshots of results (optional but recommended)
+## Author
 
-
-
-\---
-
-
-
-\## How to Run
-
-
-
-1\. Clone the repository:
-
-&#x20; 
-
-&#x20;  git clone https://github.com/A7med3li99/Sequence-Image-Models.git
-
-&#x20;  cd Sequence-Image-Models
-
-Install dependencies (basic):
-
-
-
-pip install numpy pandas matplotlib jupyter
-
-If you used a deep learning framework, install one of the following (choose what you used):
-
-
-
-pip install tensorflow
-
-or
-
-
-
-pip install torch torchvision
-
-Start Jupyter:
-
-
-
-jupyter notebook
-
-Open the notebooks inside notebooks/ and run all cells.
-
-
-
-Notes (to improve portfolio presentation)
-
-Add 1–2 screenshots of training curves or outputs inside images/
-
-
-
-Mention dataset name(s) inside the notebook or here in the README
-
-
-
-Author
-
+Ahmed Ali — [@A7med3li99](https://github.com/A7med3li99)
